@@ -5,9 +5,9 @@ echo "<li>git init - uus repo </li>";
 ?>
 <li> Nimi ja konto esimene konfigureerimine
     <pre>
-    git config --global user.name "Irina Merkulova"
+    git config --global user.name "Savva Smirnyagin"
 
-    git config --global user.email "irina.merkulova@gmail.com"
+    git config --global user.email "smirnyaginsavva@gmail.com"
 
     git config --global --list
     </pre>
