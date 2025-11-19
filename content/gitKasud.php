@@ -15,7 +15,7 @@ echo "<li>git init - uus repo </li>";
 <li>
 //ssh võti loomine
     <pre>
-     ssh-keygen -o -t rsa -C "irina.merkulova@gmail.com"
+     ssh-keygen -o -t rsa -C "smirnyaginsavva@gmail.com"
     </pre>
 
     <br>võti salvestatakse opilane/.ssh kausta
