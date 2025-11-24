@@ -1,4 +1,12 @@
 <?php
+function clearVarsExcept($url, $varname){
+    $url=basename($url);
+    if(str_starts_with($url, "?")){
+        return "?$varname=".$_REQUEST[$varname];
+    }
+    return strtok($url, "?")."?$varname=".$_REQUEST[$varname];
+
+}
 echo "<h2>Tekstfunktsioonid</h2>";
 $tekst = 'Veebirakendus on arvutitarkvara programm';
 echo $tekst;
@@ -60,7 +68,7 @@ $otsitav_pikkus1 = 3;
 echo "Kui muudan linna nimes paar asja siis tuleb selline nimetus: ".substr_replace($linn, $asendus1, $otsitav_algus1, $otsitav_pikkus1);
 echo "<br>";
 ?>
-<form action="tekstfunktsioonid.php" method="post">
+    <form action="<?=clearVarsExcept($_SERVER['REQUEST_URI'], "leht")?>" method="post">
     <label for="linn">Sisesta linna nime</label>
     <input type="text" id="linn" name="linn">
     <input type="submit" value="Kontrolli">

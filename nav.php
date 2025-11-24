@@ -13,6 +13,12 @@
             <a href="?leht=ajafunktsioonid.php">Ajafuktsioonid</a>
         </li>
         <li>
+            <a href="?leht=tekstfunktsioonid.php">Tekstfuktsioonid</a>
+        </li>
+        <li>
+            <a href="?leht=matemaatilised.php">Matemaatilised fuktsioonid</a>
+        </li>
+        <li>
             <a href="https://merkulova.thkit.ee" target="_blank">Vana index.html</a>
         </li>
         <li>
