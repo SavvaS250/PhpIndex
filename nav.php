@@ -10,6 +10,9 @@
             <a href="?leht=jsVeebikalkulaator.php">JS veebikalk</a>
         </li>
         <li>
+            <a href="?leht=galerii.php">Galerii</a>
+        </li>
+        <li>
             <a>Funktsioonid</a>
             <ul class="dropdown">
                 <li><a href="?leht=tekstfunktsioonid.php">Tekstfuktsioonid</a></li>

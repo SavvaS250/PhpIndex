@@ -111,3 +111,8 @@ span#incorrect {
     left: 0;
     opacity: 1;
 }
+
+.image{
+    border-radius: 100px;
+    border: solid 2pt black;
+}
