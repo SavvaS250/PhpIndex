@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* Neoon-tume stiil */
+
+/* Üldine */
+body {
+    background: #0f0f0f;
+    font-family: "Inter", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #e6e6e6;
+}
+
+/* Header */
+#header {
+    margin: 0 auto;
+    padding: 20px 0;
+    text-align: center;
+    background: #141414;
+    border-bottom: 1px solid #1f1f1f;
+}
+
+/* Navigatsioon */
+.nav {
+    font-size: 15px;
+    background: #141414;
+    border-radius: 0 0 10px 10px;
+    margin: 0 10px;
+    box-shadow: 0 3px 12px rgba(0, 234, 255, 0.15);
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin: 0;
+}
+
+.nav ul li a {
+    display: inline-block;
+    color: #e6e6e6;
+    padding: 12px 18px;
+    text-decoration: none;
+    transition: 0.2s;
+    font-weight: 500;
+}
+
+.nav ul li a:hover {
+    background: #00eaff;
+    color: #0f0f0f;
+    border-radius: 6px;
+}
+
+/* Pealkirjad */
+h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #00eaff;
+    border-left: 4px solid #00eaff;
+    padding: 10px 14px;
+    margin: 15px 10px;
+    background: #1a1a1a;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0, 234, 255, 0.15);
+}
+
+/* Tavatekst */
+p {
+    text-align: left;
+    font-size: 14px;
+    color: #d1d1d1;
+    margin: 10px;
+    line-height: 22px;
+}
+
+p a {
+    color: #00eaff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+p a:hover {
+    color: #00b8cc;
+}
+
+/* Footer-nav */
+.nav2 {
+    font-size: 14px;
+    background: #141414;
+    border-radius: 10px 10px 0 0;
+    margin: 20px 10px 0 10px;
+    box-shadow: 0 -3px 12px rgba(0, 234, 255, 0.15);
+}
+
+.nav2 p {
+    text-align: center;
+    color: #e6e6e6;
+    margin: 0;
+    padding: 8px 0;
+}
+
+.nav2 p a {
+    display: inline-block;
+    color: #00eaff;
+    padding: 6px 10px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.nav2 p a:hover {
+    color: #00b8cc;
+}
+
+/* Clear fix */
+.clear {
+    clear: both;
+}
