@@ -1,5 +1,11 @@
 <?php
 require ('conf.php');
+global $yhendus;
+if(isset($_REQUEST["kustuta"])){
+    $kask = $yhendus ->prepare("DELETE FROM loomad WHERE loomId=?");
+    $kask->bind_param("i", $_REQUEST["kustuta"]);
+    $kask->execute();
+}
 ?>
 <!DOCTYPE html>
 <html lang="et">
@@ -27,7 +33,7 @@ while ($kask -> fetch()) {
     echo "<td>".$loomaNimi."</td>";
     echo "<td>".$kaal."</td>";
     echo "<td>".$varv."</td>";
-    //echo "<td>""</td>";
+    echo "<td><a href='?kustuta=$loomId'>xxx</a></td>";
     echo "</tr>";
 }
 ?>

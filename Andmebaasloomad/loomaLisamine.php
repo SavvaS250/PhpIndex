@@ -2,9 +2,9 @@
 require ('conf.php');
 //lisamine
 global $yhendus;
-if (isset($_REQUEST["loomaNimi"]) && $_REQUEST["loomaNimi"] !== 0) {
-    $kask = $yhendus->prepare("INSERT INTO loomad(loomaNimi kaal, varv) VALUES(?,?,?)");
-    $kask->bind_param("sis", $_REQUEST['loomaNimi'], $_REQUEST['kaal'], $_REQUEST['varv']);
+if (isset($_REQUEST["loomanimi"]) && $_REQUEST["loomanimi"]!== 0) {
+    $kask = $yhendus->prepare("INSERT INTO loomad(loomaNimi, kaal, varv) VALUES(?,?,?)");
+    $kask->bind_param("sis", $_REQUEST['loomanimi'], $_REQUEST['kaal'], $_REQUEST['varv']);
     $kask->execute();
     header("Location:loomadeKuvamine.php");
 }
@@ -29,18 +29,24 @@ if (isset($_REQUEST["loomaNimi"]) && $_REQUEST["loomaNimi"] !== 0) {
         <td>
             <input type="text" name="loomanimi" id="loomanimi">
         </td>
+    </tr>
+        <tr>
         <td>
             <label for="kaal">Sisesta looma kaal</label>
         </td>
+
         <td>
             <input type="text" name="kaal" id="kaal">
         </td>
+        </tr>
+        <tr>
         <td>
             <label for="varv">Sisesta looma värv</label>
         </td>
         <td>
             <input type="text" name="varv" id="varv">
         </td>
+        </tr>
     </tr>
     <tr>
         <td></td>
