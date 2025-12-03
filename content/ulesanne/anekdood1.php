@@ -1,5 +1,5 @@
 <?php require("p2is.php"); ?>
-<h2>Anekdood 1</h2>
+<h2>Tuletõlrje anekdood</h2>
 <br>
 <div>"Hallo! Kas see on tuletõrje? Tulge ruttu siia, mul maja põleb!"
     "Palun rahunege seltsimees ja seletage, kuidas teie juurde saab!"

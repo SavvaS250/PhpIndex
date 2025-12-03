@@ -5,11 +5,11 @@
 <div id="header">
     <div class="nav">
         <ul>
-            <li><a href="anekdood1.php">Anekdood 1</a></li>
-            <li><a href="anekdood2.php">Anekdood 2</a></li>
-            <li><a href="anekdood3.php">Anekdood 3</a></li>
-            <li><a href="anekdood4.php">Anekdood 4</a></li>
-            <li><a href="anekdood5.php">Anekdood 5</a></li>
+            <li><a href="anekdood1.php">Tuletõlrje anekdood</a></li>
+            <li><a href="anekdood2.php">Juku anekdood</a></li>
+            <li><a href="anekdood3.php">Arvutifriik anekdood</a></li>
+            <li><a href="anekdood4.php">Aja muutus</a></li>
+            <li><a href="anekdood5.php">Politseikoer anekdood</a></li>
         </ul>
     </div>
 </div>
@@ -19,8 +19,7 @@
     "Palun rahunege seltsimees ja seletage, kuidas teie juurde saab!"
     "Tule jumal appi! Seletan! Istuge oma suurde, punasesse masinasse ja sõitke!"</div>
 <div class="nav2">
-    <p>Design by <a
-            href="http://www.mobifreaks.com">Mobifreaks.com</a></p>
+    <p>Design by ChatGPT</p>
 </div>
 </body>
 <head>

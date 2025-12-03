@@ -5,18 +5,18 @@
     <meta name="viewport" content="width=device-width; initial-scale=1.0;
 maximum-scale=1.0;">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Tunniplaan</title>
+    <title>Anekdoodid</title>
     <link href="kujundus.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <div id="header">
     <div class="nav">
         <ul>
-            <li><a href="anekdood1.php">Anekdood 1</a></li>
-            <li><a href="anekdood2.php">Anekdood 2</a></li>
-            <li><a href="anekdood3.php">Anekdood 3</a></li>
-            <li><a href="anekdood4.php">Anekdood 4</a></li>
-            <li><a href="anekdood5.php">Anekdood 5</a></li>
+            <li><a href="anekdood1.php">Tuletõlrje anekdood</a></li>
+            <li><a href="anekdood2.php">Juku anekdood</a></li>
+            <li><a href="anekdood3.php">Arvutifriik anekdood</a></li>
+            <li><a href="anekdood4.php">Aja muutus</a></li>
+            <li><a href="anekdood5.php">Politseikoer anekdood</a></li>
         </ul>
     </div>
 </div>

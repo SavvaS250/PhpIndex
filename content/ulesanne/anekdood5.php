@@ -1,5 +1,5 @@
 <?php require("p2is.php"); ?>
-<h2>Anekdood 5</h2>
+<h2>Politseikoer anekdood</h2>
 <br>
 <div>...närvid on läbi nagu...politseikoeral.</div>
 <br>
