@@ -1,3 +1,4 @@
+<h1>Anekdoodid</h1>
 <?php require("p2is.php"); ?>
 <h2>Juku anekdood</h2>
 <br>

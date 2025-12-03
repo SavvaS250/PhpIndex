@@ -1,4 +1,6 @@
+<h1>Anekdoodid</h1>
 <?php require("p2is.php"); ?>
+
 <h2>Tuletõlrje anekdood</h2>
 <br>
 <div>"Hallo! Kas see on tuletõrje? Tulge ruttu siia, mul maja põleb!"

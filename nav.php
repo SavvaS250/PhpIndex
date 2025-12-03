@@ -32,6 +32,9 @@
             </ul>
         </li>
         <li>
+            <a href="Andmebaasloomad/loomadeKuvamine.php">Andmebaas loomad</a>
+        </li>
+        <li>
             <a href="?leht=gitKasud.php">GIT käsud</a>
         </li>
     </ul>
