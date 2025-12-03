@@ -14,7 +14,7 @@
     </div>
 </div>
 <div class="clear"></div>
-<h2>Anekdood 1</h2>
+<h2>Tuletõlrje anekdood</h2>
 <div>"Hallo! Kas see on tuletõrje? Tulge ruttu siia, mul maja põleb!"
     "Palun rahunege seltsimees ja seletage, kuidas teie juurde saab!"
     "Tule jumal appi! Seletan! Istuge oma suurde, punasesse masinasse ja sõitke!"</div>

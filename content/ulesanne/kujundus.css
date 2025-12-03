@@ -119,3 +119,11 @@ p a:hover {
 .clear {
     clear: both;
 }
+div{
+    color:#00eaff;
+}
+@media screen and (max-width: 768px)  {
+    html{
+        scroll-behavior: smooth;
+    }
+}

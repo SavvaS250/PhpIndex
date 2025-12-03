@@ -24,7 +24,12 @@
             <a href="savvasmirnyagin24.thkit.ee" target="_blank">Vana index.html</a>
         </li>
         <li>
-            <a href="content/ulesanne/p2is.php">Anekdoodide leht</a>
+            <a>Anekdoodid</a>
+            <ul class="dropdown">
+                <li><a href="content/ulesanne/blankett.php">Anekdoodide leht</a></li>
+                <li><a href="content/ulesanne/mobiilimalliKonspekt.php">Konspekt</a></li>
+
+            </ul>
         </li>
         <li>
             <a href="?leht=gitKasud.php">GIT käsud</a>
